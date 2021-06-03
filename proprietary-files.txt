@@ -1429,8 +1429,6 @@ vendor/lib/vendor.qti.hardware.qdutils_disp@1.0.so
 vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so
 
 # Radio
-etc/permissions/privapp-permissions-qti.xml
-etc/sysconfig/qti_whitelist.xml
 -product/app/datastatusnotification/datastatusnotification.apk
 -product/app/embms/embms.apk
 -product/app/QtiTelephonyService/QtiTelephonyService.apk
