@@ -47,5 +47,8 @@ TARGET_USERIMAGES_USE_EXT4 := true
 # Security patch level
 VENDOR_SECURITY_PATCH := 2020-11-01
 
+# Treble
+BOARD_VNDK_VERSION := current
+
 # Inherit vendor
 include vendor/GM/GM9PRO_sprout/BoardConfigVendor.mk
