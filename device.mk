@@ -93,3 +93,12 @@ PRODUCT_PACKAGES += \
     init.target_ota.rc \
     fstab.qcom \
     ueventd.qcom.rc
+
+# Update Engine
+PRODUCT_PACKAGES += \
+    update_engine \
+    update_engine_sideload \
+    update_verifier
+
+PRODUCT_HOST_PACKAGES += \
+    brillo_update_payload
