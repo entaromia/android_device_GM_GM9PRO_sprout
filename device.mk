@@ -19,6 +19,15 @@ AB_OTA_PARTITIONS += \
     vendor \
     boot
 
+# Boot Control
+PRODUCT_PACKAGES += \
+    android.hardware.boot@1.0-impl \
+    android.hardware.boot@1.0-impl.recovery \
+    android.hardware.boot@1.0-service \
+    bootctrl.sdm660 \
+    bootctrl.sdm660.recovery \
+    libgptutils
+
 # IRQ
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf \
