@@ -69,6 +69,9 @@ BOARD_FLASH_BLOCK_SIZE := 0x40000
 TARGET_COPY_OUT_VENDOR := vendor
 TARGET_USERIMAGES_USE_EXT4 := true
 
+# Recovery
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery/recovery.fstab
+
 # Security patch level
 VENDOR_SECURITY_PATCH := 2020-11-01
 
