@@ -184,6 +184,10 @@ PRODUCT_PACKAGES += \
     fstab.qcom \
     ueventd.qcom.rc
 
+# Sensors
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
+
 # Update Engine
 PRODUCT_PACKAGES += \
     update_engine \
