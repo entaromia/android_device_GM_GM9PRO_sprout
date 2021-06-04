@@ -156,7 +156,7 @@ vendor/lib/libsndmonitor.so
 vendor/lib/libspkrprot.so
 
 # Bluetooth
--product/framework/vendor.qti.hardware.bluetooth_dun-V1.0-java.jar
+product/framework/vendor.qti.hardware.bluetooth_dun-V1.0-java.jar
 product/lib/com.qualcomm.qti.bluetooth_audio@1.0.so
 product/lib/vendor.qti.hardware.bluetooth_audio@2.0.so
 product/lib/vendor.qti.hardware.btconfigstore@1.0.so
