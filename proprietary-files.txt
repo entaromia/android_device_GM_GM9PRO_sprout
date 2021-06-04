@@ -1888,7 +1888,6 @@ vendor/lib64/libwfdhdcpcp.so
 vendor/lib64/vendor.qti.hardware.sigma_miracast@1.0.so
 
 # WiFi
-bin/iwpriv
 vendor/bin/athdiag
 vendor/bin/cnss-daemon
 vendor/bin/cnss_diag
