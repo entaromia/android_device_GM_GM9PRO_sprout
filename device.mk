@@ -19,6 +19,10 @@ AB_OTA_PARTITIONS += \
     vendor \
     boot
 
+# Bootanimation
+TARGET_SCREEN_WIDTH := 1080
+TARGET_SCREEN_HEIGHT := 2160
+
 # Boot Control
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.0-impl \
