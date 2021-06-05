@@ -68,8 +68,7 @@ PRODUCT_PACKAGES += \
     android.hardware.boot@1.0-impl.recovery \
     android.hardware.boot@1.0-service \
     bootctrl.sdm660 \
-    bootctrl.sdm660.recovery \
-    libgptutils
+    bootctrl.sdm660.recovery
 
 # IRQ
 PRODUCT_COPY_FILES += \
