@@ -64,4 +64,9 @@ setup_vendor "${DEVICE}" "${VENDOR}" "${LINEAGE_ROOT}" false "${CLEAN_VENDOR}"
 
 extract "${MY_DIR}/proprietary-files.txt" "${SRC}" ${KANG} --section "${SECTION}"
 
+DEVICE_BLOB_ROOT="$LINEAGE_ROOT"/vendor/"$VENDOR"/"$DEVICE"/proprietary
+
+sed -i 's/2.0/1.0/' /product/etc/permissions/vendor.qti.hardware.data.connection-V1.0-java.xml
+sed -i 's/2.0/1.0/' /product/etc/permissions/vendor.qti.hardware.data.connection-V1.1-java.xml
+
 "${MY_DIR}/setup-makefiles.sh"
