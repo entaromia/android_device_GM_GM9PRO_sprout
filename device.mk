@@ -181,6 +181,7 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.rc \
     init.target.rc \
     init.target_ota.rc \
+    init.logger.rc \
     fstab.qcom \
     ueventd.qcom.rc
 
