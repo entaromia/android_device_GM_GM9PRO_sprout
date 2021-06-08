@@ -158,6 +158,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
    libjson
 
+# Radio
+PRODUCT_PACKAGES += \
+   librmnetctl
+
 # Ramdisk
 PRODUCT_PACKAGES += \
     bluedut.sh \
