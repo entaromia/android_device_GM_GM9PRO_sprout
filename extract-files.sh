@@ -69,4 +69,6 @@ DEVICE_BLOB_ROOT="$LINEAGE_ROOT"/vendor/"$VENDOR"/"$DEVICE"/proprietary
 sed -i 's/2.0/1.0/' "$DEVICE_BLOB_ROOT"/product/etc/permissions/vendor.qti.hardware.data.connection-V1.0-java.xml
 sed -i 's/2.0/1.0/' "$DEVICE_BLOB_ROOT"/product/etc/permissions/vendor.qti.hardware.data.connection-V1.1-java.xml
 
+patchelf --replace-needed "libcutils.so" "libprocessgroup.so" "$DEVICE_BLOB_ROOT"/vendor/lib/hw/audio.primary.sdm660.so
+
 "${MY_DIR}/setup-makefiles.sh"
