@@ -71,4 +71,6 @@ sed -i 's/2.0/1.0/' "$DEVICE_BLOB_ROOT"/product/etc/permissions/vendor.qti.hardw
 
 patchelf --replace-needed "libcutils.so" "libprocessgroup.so" "$DEVICE_BLOB_ROOT"/vendor/lib/hw/audio.primary.sdm660.so
 
+patchelf --add-needed "libcamera_sdm660_shim.so" "$DEVICE_BLOB_ROOT"/vendor/lib/hw/camera.sdm660.so
+
 "${MY_DIR}/setup-makefiles.sh"
