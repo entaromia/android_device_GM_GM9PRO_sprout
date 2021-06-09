@@ -81,5 +81,14 @@ include device/qcom/sepolicy/sepolicy.mk
 # Treble
 BOARD_VNDK_VERSION := current
 
+# WiFi
+BOARD_WLAN_DEVICE := qcwcn
+BOARD_WPA_SUPPLICANT_DRIVER := NL80211
+BOARD_HOSTAPD_DRIVER := NL80211
+WPA_SUPPLICANT_VERSION := VER_0_8_X
+BOARD_WPA_SUPPLICANT_PRIVATE_LIB := lib_driver_cmd_$(BOARD_WLAN_DEVICE)
+BOARD_HOSTAPD_PRIVATE_LIB := lib_driver_cmd_$(BOARD_WLAN_DEVICE)
+WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
+
 # Inherit vendor
 include vendor/GM/GM9PRO_sprout/BoardConfigVendor.mk
