@@ -347,7 +347,6 @@ vendor/lib/libcam_lowlight.so|4ea3317a1ba39e5a44de106324ecdbebc30ec9c7
 vendor/lib/libcam_picselfie.so|1a715e73038cddc67c48c41a2d3c633db28161e5
 vendor/lib/libdepthmapwrapper.so|be287354afe23e2c005fa81c514c8785f37ca7a2
 vendor/lib/libflash_pmic.so|4c96cb46267dcb892e7733e977aa2d5f85d2b813
-#### build me from source #### vendor/lib/libgui_vendor.so|2dd6f1c5e8f3c6ad7956ddb011bd6fdeef348a21
 vendor/lib/libhal_dbg.so|9d9df96bcc6f83ffff4d74531140c1e0ec5a253d
 vendor/lib/libjpegdhw.so|22b123aae23c099bf8e51791b19770df908285b4
 vendor/lib/libjpegdmahw.so|222bf09df3b6e1af178eb87084ec777f34ab6e69
