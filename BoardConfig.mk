@@ -75,6 +75,9 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery/recovery.fstab
 # Security patch level
 VENDOR_SECURITY_PATCH := 2020-11-01
 
+# Sepolicy
+include device/qcom/sepolicy/sepolicy.mk
+
 # Treble
 BOARD_VNDK_VERSION := current
 
