@@ -79,6 +79,10 @@ vendor/lib64/soundfx/libqcbassboost.so
 vendor/lib64/soundfx/libqcreverb.so
 vendor/lib64/soundfx/libqcvirt.so
 
+# Audio - from GM9PRO_sprout - PKQ1.180904.001
+vendor/lib/libtinycompress_vendor.so|d509e09055593b3542cf1c8b44bdce86f543db63
+vendor/lib64/libtinycompress_vendor.so|3ffc45a8d813d67eadd5923667a239d924814f89
+
 # Audio Firmware - from GM9PRO_sprout - PKQ1.180904.001
 vendor/firmware/VT_D4_ver_392_OKG.bin|d29abc4342106eb13614950794a90d9a2dd58505
 vendor/firmware/tfa98xx.cnt|208af679f2dc151c66c898ecd0bd800ec2648240
