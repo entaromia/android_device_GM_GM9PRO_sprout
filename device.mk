@@ -266,6 +266,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_HOST_PACKAGES += \
     brillo_update_payload
 
+# Vibrator
+PRODUCT_PACKAGES += \
+    android.hardware.vibrator@1.0-service \
+    android.hardware.vibrator@1.0-impl
+
 # WiFi
 PRODUCT_PACKAGES += \
     hostapd \

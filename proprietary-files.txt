@@ -1786,14 +1786,6 @@ vendor/lib/libUBWC.so
 vendor/lib64/libstreamparser.so
 vendor/lib64/libUBWC.so
 
-# Vibrator
-vendor/bin/hw/android.hardware.vibrator@1.0-service
-vendor/etc/init/android.hardware.vibrator@1.0-service.rc
-vendor/lib/hw/android.hardware.vibrator@1.0-impl.so
-vendor/lib/hw/vibrator.default.so
-vendor/lib64/hw/android.hardware.vibrator@1.0-impl.so
-vendor/lib64/hw/vibrator.default.so
-
 # Voice
 -product/framework/vendor.qti.voiceprint-V1.0-java.jar
 product/lib/vendor.qti.voiceprint@1.0.so
