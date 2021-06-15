@@ -171,6 +171,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
    libtinyxml
 
+# Power
+PRODUCT_PACKAGES += \
+   android.hardware.power@1.2-service-qti
+
 # Privapp Permissions
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-qti.xml
