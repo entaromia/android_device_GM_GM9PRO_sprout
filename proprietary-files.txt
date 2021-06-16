@@ -335,9 +335,6 @@ vendor/lib64/vendor.qti.hardware.cvp@1.0.so
 
 # Camera - from GM9PRO_sprout - PKQ1.180904.001
 vendor/bin/mm-qcamera-app|1b22d768ad6aa4697250053b3800e4059c07c639
-vendor/bin/hw/android.hardware.camera.provider@2.4-service|d80b3268c64cde8a77dc5ff5deac90e6d9d1ba82
-vendor/etc/init/android.hardware.camera.provider@2.4-service.rc|1f9510435ab019056b82fe4642f203fb1b1ab3b8
-vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so|d2b062fb334bf6e0429593eb8e11c37fad2f63e6
 vendor/lib/hw/camera.sdm660.so|a8279dad0080169618e5487d3faa0e2fb01a3d7a
 vendor/lib/libcam.meiyan.so|de5f3eef7a5bf9296df73a7807b21d5b2f6f1145
 vendor/lib/libcam.meiyanHDR.so|469bdc32df2d097a77292c242fede34ebb3f64b3
@@ -364,7 +361,6 @@ vendor/lib/libremosaic_daemon.so|856a2ac2233703639f438832d2cf55c517e7849b
 vendor/lib/libvideoutils.so|16d906b0f53d67a33942815df51397a6d4ca619c
 vendor/lib/libvidhance.so|df4e1ae63947e66269ea6ef0144a1b08fb56a392
 vendor/lib/vendor.qti.hardware.camera.device@1.0.so|20eed31751fba55838fba2cf279c9e18f2459842
-vendor/lib64/hw/android.hardware.camera.provider@2.4-impl.so|9eb9ea03f18ecef5e5f52545680a1f81917d1ad1
 vendor/lib64/libvideoutils.so|42ffbcce5e16eacbb089fc6ae27af8e1a66284f3
 vendor/lib64/vendor.qti.hardware.camera.device@1.0.so|97673f0c538cf479861d85515355e072d7458641
 

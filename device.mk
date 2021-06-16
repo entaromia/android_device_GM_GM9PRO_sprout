@@ -70,6 +70,11 @@ PRODUCT_PACKAGES += \
     bootctrl.sdm660 \
     bootctrl.sdm660.recovery
 
+# Camera
+PRODUCT_PACKAGES += \
+    android.hardware.camera.provider@2.4-service \
+    android.hardware.camera.provider@2.4-impl
+
 # GPS
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/gps/flp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/flp.conf \
