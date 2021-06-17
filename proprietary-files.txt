@@ -1081,14 +1081,6 @@ vendor/lib/vendor.qti.latency@2.0.so
 vendor/lib64/vendor.qti.hardware.data.latency@1.0.so
 vendor/lib64/vendor.qti.latency@2.0.so
 
-# Lights
-vendor/bin/hw/android.hardware.light@2.0-service
-vendor/etc/init/android.hardware.light@2.0-service.rc
-vendor/lib/hw/android.hardware.light@2.0-impl.so
-vendor/lib/hw/lights.sdm660.so
-vendor/lib64/hw/android.hardware.light@2.0-impl.so
-vendor/lib64/hw/lights.sdm660.so
-
 # Listen
 vendor/lib/hw/android.hardware.soundtrigger@2.1-impl.so
 vendor/lib/hw/sound_trigger.primary.sdm660.so
