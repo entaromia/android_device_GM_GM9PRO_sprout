@@ -27,9 +27,9 @@
 
 import /vendor/etc/init/hw/init.qcom.usb.rc
 import /vendor/etc/init/hw/init.msm.usb.configfs.rc
+import /vendor/etc/init/hw/init.qcom.test.rc
 import /vendor/etc/init/hw/init.target.rc
 import /vendor/etc/init/hw/init.qcom.factory.rc
-import /vendor/etc/init/hw/init.qcom.test.rc
 import /vendor/etc/init/hw/init.logger.rc
 
 on early-init
@@ -261,9 +261,7 @@ on post-fs-data
     mkdir /data/vendor/qtee 0770 system system
 
     #Create folder of camera
-    # we need this folder to have execution permissions for other users
-    # for the camera calibration file (The app should access this folder)
-    mkdir /data/vendor/camera 0771 camera camera
+    mkdir /data/vendor/camera 0770 camera camera
 
 
     #Create directory for tftp
@@ -468,7 +466,7 @@ on property:persist.sys.modem_auth_timeout=*
 on property:persist.sys.pil_proxy_timeout=*
     write /sys/module/peripheral_loader/parameters/proxy_timeout_ms ${persist.sys.pil_proxy_timeout}
 
-on property:vendor.ssr.restart_level=*
+on property:persist.vendor.ssr.restart_level=*
     start vendor.ssr_setup
 
 on property:persist.vendor.ssr.enable_ramdumps=1
@@ -728,9 +726,10 @@ service cnss-daemon /system/vendor/bin/cnss-daemon -n -l
     group system inet net_admin wifi
     capabilities NET_ADMIN
 
+#modify shutdown property for shutdown quickly TEL_L9501_A01-251 by tangjifu 2018-10-30 start
 on property:sys.shutdown.requested=*
-    write /sys/kernel/shutdown_wlan/shutdown 1
     stop cnss-daemon
+#modify shutdown property for shutdown quickly TEL_L9501_A01-251 by tangjifu 2018-10-30 end
 
 service dhcpcd_bt-pan /system/bin/dhcpcd -BKLG
     class late_start

@@ -362,7 +362,6 @@ function configure_zram_parameters() {
     MemTotal=${MemTotalStr:16:8}
 
     low_ram=`getprop ro.config.low_ram`
-    zram_size=`getprop ro.vendor.qti.config.zramsize`
 
     # Zram disk - 75% for Go devices.
     # For 512MB Go device, size = 384MB, set same for Non-Go.
@@ -386,9 +385,7 @@ function configure_zram_parameters() {
         if [ -f /sys/block/zram0/use_dedup ]; then
             echo 1 > /sys/block/zram0/use_dedup
         fi
-        if [ $zram_size != "" ]; then
-            echo $zram_size > /sys/block/zram0/disksize
-        elif [ $MemTotal -le 524288 ]; then
+        if [ $MemTotal -le 524288 ]; then
             echo 402653184 > /sys/block/zram0/disksize
         elif [ $MemTotal -le 1048576 ]; then
             echo 805306368 > /sys/block/zram0/disksize
@@ -604,21 +601,15 @@ function enable_memory_features()
     MemTotalStr=`cat /proc/meminfo | grep MemTotal`
     MemTotal=${MemTotalStr:16:8}
 
-    if [ $MemTotal -le 4194304 ]; then
-        #Enable B service adj transition for 4GB or less memory
+    if [ $MemTotal -le 2097152 ]; then
+        #Enable B service adj transition for 2GB or less memory
         setprop ro.vendor.qti.sys.fw.bservice_enable true
         setprop ro.vendor.qti.sys.fw.bservice_limit 5
         setprop ro.vendor.qti.sys.fw.bservice_age 5000
 
-        setprop ro.vendor.qti.sys.fw.use_trim_settings true
-        setprop ro.vendor.qti.sys.fw.empty_app_percent 50
-        setprop ro.vendor.qti.sys.fw.trim_empty_percent 100
-        setprop ro.vendor.qti.sys.fw.trim_cache_percent 100
-        setprop ro.vendor.qti.sys.fw.trim_enable_memory 2147483648
+        #Enable Delay Service Restart
+        setprop ro.vendor.qti.am.reschedule_service true
     fi
-
-    #Enable Delay Service Restart
-    setprop ro.vendor.qti.am.reschedule_service true
 }
 
 function start_hbtp()
@@ -2637,9 +2628,6 @@ case "$target" in
 
             # Set Memory parameters
             configure_memory_parameters
-            enable_memory_features
-
-            echo 262144 > /sys/module/lowmemorykiller/parameters/vmpressure_file_min
 
             # Enable bus-dcvs
             for cpubw in /sys/class/devfreq/*qcom,cpubw*
@@ -2672,9 +2660,7 @@ case "$target" in
             echo "cpufreq" > /sys/class/devfreq/soc:qcom,mincpubw/governor
 
             # Start cdsprpcd only for sdm660 and disable for sdm630
-            if [ "$soc_id" -eq "317" ]; then
-                start vendor.cdsprpcd
-            fi
+            start vendor.cdsprpcd
 
             # Start Host based Touch processing
                 case "$hw_platform" in

@@ -88,9 +88,7 @@ on boot
     chown system system /persist/speccfg/partition
 
 #Create folder dump yuv images while debugging
-# we need this folder to have execution permissions for other users
-# for the camera calibration file (The app should access this folder)
-    mkdir /data/vendor/camera 0771 camera camera
+    mkdir /data/vendor/camera 0770 camera camera
 
 #Load WLAN driver
    insmod /vendor/lib/modules/qca_cld3_wlan.ko
@@ -366,6 +364,9 @@ service vendor.pd_mapper /system/vendor/bin/pd-mapper
 on property:vendor.ims.QMI_DAEMON_STATUS=1
     start vendor.imsdatadaemon
 
+on property:vold.decrypt=trigger_restart_framework
+   start cnss_diag
+
 service cnss_diag /system/vendor/bin/cnss_diag -q -f -t HELIUM
    class main
    user system
@@ -417,8 +418,7 @@ on charger
     start vendor.hvdcp_opti
     setprop vendor.usb.controller a800000.dwc3
     setprop sys.usb.configfs 1
-    setprop persist.sys.usb.config mass_storage
-    start vendor.power_off_alarm
+    start power_off_alarm
 
 #
 #service nqs /system/bin/nqs

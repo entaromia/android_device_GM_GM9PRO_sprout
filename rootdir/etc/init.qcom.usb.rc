@@ -113,6 +113,9 @@ service vendor.qcom-usb-sh /vendor/bin/init.qcom.usb.sh
     oneshot
     disabled
 
+on property:persist.vendor.usb.config=*
+    setprop persist.sys.usb.config ${persist.vendor.usb.config}
+
 on boot && property:ro.boot.usbconfigfs=true
         setprop sys.usb.configfs 1
 
@@ -1664,3 +1667,4 @@ on property:sys.usb.config=diag,adb,uac2,video && property:sys.usb.configfs=0
     write /sys/class/android_usb/android0/enable 1
     start adbd
     setprop sys.usb.state ${sys.usb.config}
+

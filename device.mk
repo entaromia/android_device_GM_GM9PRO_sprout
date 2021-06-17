@@ -197,42 +197,30 @@ PRODUCT_PACKAGES += \
 
 # Ramdisk
 PRODUCT_PACKAGES += \
-    bluedut.sh \
-    bt_close.sh \
-    bt_open.sh \
-    init.bq.tp.sh \
-    init.class_main.sh \
-    init.crda.sh \
-    init.mdm.sh \
-    init.qcom.class_core.sh \
-    init.qcom.coex.sh \
-    init.qcom.crashdata.sh \
-    init.qcom.early_boot.sh \
-    init.qcom.efs.sync.sh \
-    init.qcom.post_boot.sh \
-    init.qcom.sdio.sh \
-    init.qcom.sensors.sh \
-    init.qcom.sh \
-    init.qcom.usb.sh \
-    init.qti.can.sh \
-    init.qti.fm.sh \
-    init.qti.ims.sh \
-    init.qti.qseecomd.sh \
-    iwpriv.agent.sh \
-    myftm.agent.sh \
-    qca6234-service.sh \
-    wifitest.sh \
-    wifitest_close.sh \
-    init.bq.usb.configfs.rc \
-    init.msm.usb.configfs.rc \
-    init.qcom.factory.rc \
     init.qcom.rc \
-    init.qcom.usb.rc \
+    init.qcom.sh \
+    init.qcom.class_core.sh \
+    init.class_main.sh \
+    init.qcom.early_boot.sh \
+    init.qcom.post_boot.sh \
     init.target.rc \
+    init.target_dap.rc \
     init.target_ota.rc \
-    init.logger.rc \
     fstab.qcom \
-    ueventd.qcom.rc
+    init.recovery.qcom.rc \
+    init.qcom.factory.rc \
+    init.qti.ims.sh \
+    init.qcom.coex.sh \
+    init.crda.sh \
+    init.qcom.usb.rc \
+    init.msm.usb.configfs.rc \
+    init.qcom.usb.sh \
+    init.qcom.efs.sync.sh \
+    ueventd.qcom.rc \
+    qca6234-service.sh \
+    init.qcom.sensors.sh \
+    init.qcom.crashdata.sh \
+    init.qti.qseecomd.sh
 
 # Seccomp
 PRODUCT_COPY_FILES += \
