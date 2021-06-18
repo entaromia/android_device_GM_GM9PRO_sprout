@@ -24,6 +24,7 @@ PRODUCT_PACKAGES += \
     android.hardware.audio@2.0-service \
     android.hardware.audio@5.0-impl \
     android.hardware.audio.effect@5.0-impl \
+    android.hardware.soundtrigger@2.1-impl \
     audio.r_submix.default \
     audio.usb.default \
     libqcompostprocbundle \
@@ -72,6 +73,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libqdMetaData.system
 
+# DRM
+PRODUCT_PACKAGES += \
+    android.hardware.drm@1.0-service \
+    android.hardware.drm@1.0-impl \
+    android.hardware.drm@1.2-service.clearkey
+
 # GPS
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/gps/flp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/flp.conf \
@@ -84,6 +91,10 @@ PRODUCT_COPY_FILES += \
 # Fingerprint
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1
+
+# Health
+PRODUCT_PACKAGES += \
+    android.hardware.health@2.0-service
 
 # HIDL
 PRODUCT_PACKAGES += \
@@ -237,11 +248,20 @@ PRODUCT_PACKAGES += \
    libcamera_sdm660_shim
 
 # Sensors
+PRODUCT_PACKAGES += \
+    android.hardware.sensors@1.0-service \
+    android.hardware.sensors@1.0-impl
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
 
 # Soong
 PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
+
+# Thermal
+PRODUCT_PACKAGES += \
+    android.hardware.thermal@1.0-service \
+    android.hardware.thermal@1.0-impl
 
 # Telephony
 PRODUCT_PACKAGES += \
@@ -276,6 +296,7 @@ PRODUCT_PACKAGES += \
 
 # WiFi
 PRODUCT_PACKAGES += \
+    android.hardware.wifi@1.0-service \
     hostapd \
     libwifi-hal-qcom \
     wpa_supplicant \
