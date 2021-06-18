@@ -209,7 +209,8 @@ PRODUCT_PACKAGES += \
     qca6234-service.sh \
     init.qcom.sensors.sh \
     init.qcom.crashdata.sh \
-    init.qti.qseecomd.sh
+    init.qti.qseecomd.sh \
+    init.logger.rc
 
 # Seccomp
 PRODUCT_COPY_FILES += \
