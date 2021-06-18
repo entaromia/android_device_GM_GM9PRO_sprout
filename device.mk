@@ -20,6 +20,17 @@ AB_OTA_PARTITIONS += \
     boot
 
 # Audio
+PRODUCT_PACKAGES += \
+    android.hardware.audio@2.0-service \
+    android.hardware.audio@5.0-impl \
+    android.hardware.audio.effect@5.0-impl \
+    audio.r_submix.default \
+    audio.usb.default \
+    libqcompostprocbundle \
+    libqcomvisualizer \
+    libqcomvoiceprocessing \
+    libvolumelistener
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration.xml \
     $(LOCAL_PATH)/configs/audio/audio_output_policy.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_output_policy.conf \
