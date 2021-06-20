@@ -70,6 +70,10 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
     vendor.qti.hardware.camera.device@1.0.vendor
 
+# Cryptfshw
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.cryptfshw@1.0.vendor
+
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@2.0-service \
@@ -230,6 +234,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
    libjson
 
+# QTI VNDK Framework Detect
+PRODUCT_PACKAGES += \
+    libqti_vndfwk_detect.vendor \
+    libvndfwk_detect_jni.qti.vendor
+
 # Radio
 PRODUCT_PACKAGES += \
     android.hardware.radio@1.4 \
@@ -288,7 +297,8 @@ PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
 # Thermal
 PRODUCT_PACKAGES += \
     android.hardware.thermal@1.0-service \
-    android.hardware.thermal@1.0-impl
+    android.hardware.thermal@1.0-impl \
+    thermal.sdm660
 
 # Telephony
 PRODUCT_PACKAGES += \
@@ -326,6 +336,9 @@ PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service \
     hostapd \
     libwifi-hal-qcom \
+    vendor.qti.hardware.fstman@1.0.vendor \
+    vendor.qti.hardware.wifi.hostapd@1.1.vendor \
+    vendor.qti.hardware.wifi.supplicant@2.1.vendor \
     wpa_supplicant \
     wpa_supplicant.conf
 

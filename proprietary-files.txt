@@ -282,10 +282,8 @@ vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so
 # Cryptfs
 vendor/bin/hw/vendor.qti.hardware.cryptfshw@1.0-service-qti
 vendor/etc/init/vendor.qti.hardware.cryptfshw@1.0-service-qti.rc
-vendor/lib/vendor.qti.hardware.cryptfshw@1.0.so
 vendor/lib/libcryptfshwcommon.so
 vendor/lib/libcryptfshwhidl.so
-vendor/lib64/vendor.qti.hardware.cryptfshw@1.0.so
 vendor/lib64/libcryptfshwcommon.so
 vendor/lib64/libcryptfshwhidl.so
 
@@ -673,12 +671,8 @@ vendor/lib64/mediadrm/libwvdrmengine.so
 # Display Hardware
 lib/libsdm-disp-apis.so
 lib64/libsdm-disp-apis.so
-vendor/lib/libgpu_tonemapper.so
-vendor/lib/libqservice.so
 vendor/lib/libsdmcore.so
 vendor/lib/libsdmextension.so
-vendor/lib64/libgpu_tonemapper.so
-vendor/lib64/libqservice.so
 vendor/lib64/libsdmcore.so
 vendor/lib64/libsdmextension.so
 
@@ -1564,9 +1558,7 @@ vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
 # Thermal - from GM9PRO_sprout - PKQ1.180904.001
 vendor/bin/thermal-engine|f1b39844dbcc87d37b3bbf8745b6261f1f8c19d0
 vendor/etc/thermal-engine.conf|8945ee4333384c3ed5a5fa7217b6631119aba7cb
-vendor/lib/hw/thermal.sdm660.so|a9f27c385805128bc43d27a85b7e572e4807589b
 vendor/lib/libthermalclient.so|4579096edb376b06827f8e90a49480cf121030f0
-vendor/lib64/hw/thermal.sdm660.so|ead2f3b3b9fb5c32ff0f4739dc57299f57de10b8
 vendor/lib64/libthermalclient.so|54121e31e4a5170f8c50e36ddb57685b6c538a21
 vendor/lib64/libthermalioctl.so|2e02bd61ebfd9beecbad264bcc46e6b7f24007bb
 
@@ -1638,12 +1630,9 @@ vendor/bin/cnss-daemon
 vendor/bin/cnss_diag
 vendor/bin/fstman
 vendor/bin/iwpriv
+vendor/etc/init/vendor.qti.hardware.fstman@1.0-service.rc
 vendor/etc/init/vendor.qti.hardware.wifi.wifilearner@1.0-service.rc
 vendor/lib/vendor.qti.hardware.wigig.netperftuner@1.0.so
-vendor/lib64/vendor.qti.hardware.wifi.hostapd@1.0.so
-vendor/lib64/vendor.qti.hardware.wifi.hostapd@1.1.so
-vendor/lib64/vendor.qti.hardware.wifi.supplicant@2.0.so
-vendor/lib64/vendor.qti.hardware.wifi.supplicant@2.1.so
 vendor/lib64/vendor.qti.hardware.wifi.wifilearner@1.0.so
 vendor/lib64/vendor.qti.hardware.wigig.netperftuner@1.0.so
 
@@ -1702,7 +1691,6 @@ vendor/etc/init/ipacm-diag.rc
 vendor/etc/init/netmgrd.rc
 vendor/etc/init/port-bridge.rc
 vendor/etc/init/rild.rc
-vendor/etc/init/vendor.qti.hardware.fstman@1.0-service.rc
 vendor/etc/init/vendor.qti.rmt_storage.rc
 vendor/etc/init/vendor.qti.tftp.rc
 vendor/etc/init/vendor.rild.rc
@@ -1715,11 +1703,9 @@ vendor/lib/libjnihelper.so
 vendor/lib/libqcbor.so
 vendor/lib/libqcrildatactl.so
 vendor/lib/libqdma_file_agent.so
-vendor/lib/libqti_vndfwk_detect.so
 vendor/lib/libskewknob.so
 vendor/lib/libssrec.so
 vendor/lib/libsynergy_loc_api.so
-vendor/lib/libvndfwk_detect_jni.qti.so
 vendor/lib/qtibus.so
 vendor/lib/qtimutex.so
 vendor/lib/vendor.qti.hardware.slmadapter@1.0.so
@@ -1729,13 +1715,10 @@ vendor/lib64/libfastcrc.so
 vendor/lib64/libjnihelper.so
 vendor/lib64/libqcbor.so
 vendor/lib64/libqcrildatactl.so
-vendor/lib64/libqti_vndfwk_detect.so
 vendor/lib64/libreffeature.so
 vendor/lib64/libskewknob.so
 vendor/lib64/libssrec.so
 vendor/lib64/libsynergy_loc_api.so
-vendor/lib64/libvndfwk_detect_jni.qti.so
 vendor/lib64/qtibus.so
 vendor/lib64/qtimutex.so
-vendor/lib64/vendor.qti.hardware.fstman@1.0.so
 vendor/lib64/vendor.qti.hardware.slmadapter@1.0.so
