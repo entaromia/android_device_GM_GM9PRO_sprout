@@ -1634,36 +1634,20 @@ vendor/lib64/vendor.qti.hardware.wigig.netperftuner@1.0.so
 
 # Rootdir
 vendor/bin/diag_mdlog
-vendor/bin/hw/rild
 vendor/bin/mlid
-vendor/bin/mm-audio-ftm
 vendor/bin/mmid
 vendor/bin/myftm
 vendor/bin/ptt_socket_app
 
 # Misc
-vendor/bin/cnss_cli
-vendor/bin/cplay
-vendor/bin/diag_klog
 vendor/bin/diag_socket_log
-vendor/bin/diag_uart_log
 vendor/bin/e_loop
 vendor/bin/fmconfig
 vendor/bin/ftmdaemon
-vendor/bin/hal_proxy_daemon
 vendor/bin/ipacm-diag
 vendor/bin/iwlist
-vendor/bin/KmInstallKeybox
-vendor/bin/pktlogconf
-vendor/bin/PktRspTest
-vendor/bin/qmi_simple_ril_test
 vendor/bin/sigma_dut
-vendor/bin/spectraltool
-vendor/bin/tbaseLoader
-vendor/bin/test_diag
-vendor/bin/test_module_pproc
 vendor/bin/tinyhostless
-vendor/bin/vendor_cmd_tool
 vendor/bin/wdsdaemon
 vendor/bin/wifilearner
 vendor/bin/wifisarfar
@@ -1681,18 +1665,14 @@ vendor/etc/init/imsrcsd.rc
 vendor/etc/init/ims_rtp_daemon.rc
 vendor/etc/init/init-qcril-data.rc
 vendor/etc/init/init.bq.common.vendor.rc
-vendor/etc/init/init.bq.device.vendor.rc
 vendor/etc/init/init.time_daemon.rc
 vendor/etc/init/ipacm-diag.rc
 vendor/etc/init/netmgrd.rc
 vendor/etc/init/port-bridge.rc
-vendor/etc/init/rild.rc
 vendor/etc/init/vendor.qti.rmt_storage.rc
 vendor/etc/init/vendor.qti.tftp.rc
-vendor/etc/init/vendor.rild.rc
 vendor/etc/long_exposure_times.xml
 vendor/etc/mct_pipeline.xml
-vendor/lib/libchrome.so
 vendor/lib/libdiagjni.so
 vendor/lib/libfastcrc.so
 vendor/lib/libjnihelper.so
@@ -1700,12 +1680,10 @@ vendor/lib/libqcbor.so
 vendor/lib/libqcrildatactl.so
 vendor/lib/libqdma_file_agent.so
 vendor/lib/libskewknob.so
-vendor/lib/libssrec.so
 vendor/lib/libsynergy_loc_api.so
 vendor/lib/qtibus.so
 vendor/lib/qtimutex.so
 vendor/lib/vendor.qti.hardware.slmadapter@1.0.so
-vendor/lib64/libchrome.so
 vendor/lib64/libdiagjni.so
 vendor/lib64/libfastcrc.so
 vendor/lib64/libjnihelper.so
@@ -1713,7 +1691,6 @@ vendor/lib64/libqcbor.so
 vendor/lib64/libqcrildatactl.so
 vendor/lib64/libreffeature.so
 vendor/lib64/libskewknob.so
-vendor/lib64/libssrec.so
 vendor/lib64/libsynergy_loc_api.so
 vendor/lib64/qtibus.so
 vendor/lib64/qtimutex.so
