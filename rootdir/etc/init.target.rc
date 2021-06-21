@@ -87,6 +87,61 @@ on boot
     chown system system /persist/speccfg/submask
     chown system system /persist/speccfg/partition
 
+    # HDMI
+    chown root system /sys/class/switch/hdmi/state
+    chmod 0660 /sys/class/switch/hdmi/state
+
+    # Led
+    chown system system /sys/class/leds/red/blink
+    chown system system /sys/class/leds/blue/blink
+    chown system system /sys/class/leds/green/blink
+    chown system system /sys/class/leds/red/brightness
+    chown system system /sys/class/leds/green/brightness
+    chown system system /sys/class/leds/blue/brightness
+    chown system system /sys/class/leds/red/pause_lo
+    chown system system /sys/class/leds/blue/pause_lo
+    chown system system /sys/class/leds/green/pause_lo
+    chown system system /sys/class/leds/red/pause_hi
+    chown system system /sys/class/leds/blue/pause_hi
+    chown system system /sys/class/leds/green/pause_hi
+    chown system system /sys/class/leds/red/duty_pcts
+    chown system system /sys/class/leds/blue/duty_pcts
+    chown system system /sys/class/leds/green/duty_pcts
+
+    # Back and Front flash
+    chmod 0660 /sys/class/leds/led:flash_0/brightness
+    chmod 0660 /sys/class/leds/led:flash_1/brightness
+    chmod 0660 /sys/class/leds/led:flash_2/brightness
+    chmod 0660 /sys/class/leds/led:torch_0/brightness
+    chmod 0660 /sys/class/leds/led:torch_1/brightness
+    chmod 0660 /sys/class/leds/led:torch_2/brightness
+    chmod 0660 /sys/class/leds/led:switch_0/brightness
+    chmod 0660 /sys/class/leds/led:switch_1/brightness
+    chown system system /sys/class/leds/led:flash_0/brightness
+    chown system system /sys/class/leds/led:flash_1/brightness
+    chown system system /sys/class/leds/led:flash_2/brightness
+    chown system system /sys/class/leds/led:torch_0/brightness
+    chown system system /sys/class/leds/led:torch_1/brightness
+    chown system system /sys/class/leds/led:torch_2/brightness
+    chown system system /sys/class/leds/led:switch_0/brightness
+    chown system system /sys/class/leds/led:switch_1/brightness
+
+    # Vibrator intensity modifier
+    chown system system /sys/class/timed_output/vibrator/enable
+    chown system system /sys/class/timed_output/vibrator/wf_s0
+    chown system system /sys/class/timed_output/vibrator/wf_s1
+    chown system system /sys/class/timed_output/vibrator/wf_s2
+    chown system system /sys/class/timed_output/vibrator/wf_s3
+    chown system system /sys/class/timed_output/vibrator/wf_s4
+    chown system system /sys/class/timed_output/vibrator/wf_s5
+    chown system system /sys/class/timed_output/vibrator/wf_s6
+    chown system system /sys/class/timed_output/vibrator/wf_s7
+    chown system system /sys/class/timed_output/vibrator/wf_update_now
+
+    # runin
+    chown system system /sys/class/power_supply/battery/charging_enabled
+    mkdir /mnt/vendor/persist/audio 0770 audio audio
+
 #Create folder dump yuv images while debugging
     mkdir /data/vendor/camera 0770 camera camera
 

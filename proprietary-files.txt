@@ -1633,7 +1633,6 @@ vendor/lib64/vendor.qti.hardware.wifi.wifilearner@1.0.so
 vendor/lib64/vendor.qti.hardware.wigig.netperftuner@1.0.so
 
 # Rootdir
-vendor/bin/diag_mdlog
 vendor/bin/mlid
 vendor/bin/mmid
 vendor/bin/myftm
@@ -1643,15 +1642,10 @@ vendor/bin/ptt_socket_app
 vendor/bin/diag_socket_log
 vendor/bin/e_loop
 vendor/bin/fmconfig
-vendor/bin/ftmdaemon
 vendor/bin/ipacm-diag
 vendor/bin/iwlist
 vendor/bin/sigma_dut
-vendor/bin/tinyhostless
-vendor/bin/wdsdaemon
 vendor/bin/wifilearner
-vendor/bin/wifisarfar
-vendor/bin/wifisarnear
 vendor/bin/xtwifi-client
 vendor/bin/xtwifi-inet-agent
 vendor/Diag.cfg
@@ -1664,7 +1658,6 @@ vendor/etc/init/imsqmidaemon.rc
 vendor/etc/init/imsrcsd.rc
 vendor/etc/init/ims_rtp_daemon.rc
 vendor/etc/init/init-qcril-data.rc
-vendor/etc/init/init.bq.common.vendor.rc
 vendor/etc/init/init.time_daemon.rc
 vendor/etc/init/ipacm-diag.rc
 vendor/etc/init/netmgrd.rc
