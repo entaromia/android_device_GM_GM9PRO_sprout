@@ -250,7 +250,6 @@ PRODUCT_PACKAGES += \
     init.target_ota.rc \
     fstab.qcom \
     init.recovery.qcom.rc \
-    init.qcom.factory.rc \
     init.qti.ims.sh \
     init.qcom.coex.sh \
     init.crda.sh \

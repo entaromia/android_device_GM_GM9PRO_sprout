@@ -1634,12 +1634,9 @@ vendor/lib64/vendor.qti.hardware.wigig.netperftuner@1.0.so
 
 # Rootdir
 vendor/bin/mlid
-vendor/bin/mmid
-vendor/bin/myftm
 vendor/bin/ptt_socket_app
 
 # Misc
-vendor/bin/diag_socket_log
 vendor/bin/e_loop
 vendor/bin/fmconfig
 vendor/bin/ipacm-diag
