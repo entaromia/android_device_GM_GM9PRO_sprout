@@ -726,20 +726,6 @@ vendor/lib64/libqfp-service.so
 vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
 
 # Firmware
-vendor/firmware/a225p5_pm4.fw
-vendor/firmware/a225_pfp.fw
-vendor/firmware/a225_pm4.fw
-vendor/firmware/a300_pfp.fw
-vendor/firmware/a300_pm4.fw
-vendor/firmware/a330_pfp.fw
-vendor/firmware/a330_pm4.fw
-vendor/firmware/a420_pfp.fw
-vendor/firmware/a420_pm4.fw
-vendor/firmware/a508_zap.b00
-vendor/firmware/a508_zap.b01
-vendor/firmware/a508_zap.b02
-vendor/firmware/a508_zap.elf
-vendor/firmware/a508_zap.mdt
 vendor/firmware/a512_zap.b00
 vendor/firmware/a512_zap.b01
 vendor/firmware/a512_zap.b02
@@ -747,9 +733,6 @@ vendor/firmware/a512_zap.elf
 vendor/firmware/a512_zap.mdt
 vendor/firmware/a530v1_pfp.fw
 vendor/firmware/a530v1_pm4.fw
-vendor/firmware/a530v2_seq.fw2
-vendor/firmware/a530v3_gpmu.fw2
-vendor/firmware/a530v3_seq.fw2
 vendor/firmware/a530_gpmu.fw2
 vendor/firmware/a530_pfp.fw
 vendor/firmware/a530_pm4.fw
