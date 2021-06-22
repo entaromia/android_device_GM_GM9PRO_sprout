@@ -1638,14 +1638,12 @@ vendor/bin/ptt_socket_app
 
 # Misc
 vendor/bin/e_loop
-vendor/bin/fmconfig
 vendor/bin/ipacm-diag
 vendor/bin/iwlist
 vendor/bin/sigma_dut
 vendor/bin/wifilearner
 vendor/bin/xtwifi-client
 vendor/bin/xtwifi-inet-agent
-vendor/Diag.cfg
 vendor/etc/gpfspath_oem_config.xml
 vendor/etc/init/dataadpl.rc
 vendor/etc/init/dataqti.rc
@@ -1661,7 +1659,6 @@ vendor/etc/init/netmgrd.rc
 vendor/etc/init/port-bridge.rc
 vendor/etc/init/vendor.qti.rmt_storage.rc
 vendor/etc/init/vendor.qti.tftp.rc
-vendor/etc/long_exposure_times.xml
 vendor/etc/mct_pipeline.xml
 vendor/lib/libdiagjni.so
 vendor/lib/libfastcrc.so
