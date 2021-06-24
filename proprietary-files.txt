@@ -561,6 +561,9 @@ vendor/bin/hvdcp_opti
 # Configstore
 vendor/lib64/vendor.qti.hardware.capabilityconfigstore@1.0.so
 
+# DPM - from X01BD - UL-ASUS_X01BD-WW-17.2018.2004.424-user
+-product/priv-app/dpmserviceapp/dpmserviceapp.apk|d684e20c3102413c601918df267a9743460f6f1d
+
 # DPM
 -framework/tcmclient.jar
 product/etc/dpm/dpm.conf
@@ -579,7 +582,6 @@ product/lib64/libdpmctmgr.so
 product/lib64/libdpmfdmgr.so
 product/lib64/libdpmframework.so
 product/lib64/libdpmtcm.so
--product/priv-app/dpmserviceapp/dpmserviceapp.apk
 vendor/bin/dpmQmiMgr
 vendor/lib/com.qualcomm.qti.dpm.api@1.0.so
 vendor/lib/libdpmqmihal.so
