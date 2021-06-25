@@ -327,6 +327,11 @@ PRODUCT_PACKAGES += \
     android.hardware.vibrator@1.0-service \
     android.hardware.vibrator@1.0-impl
 
+# VNDK
+PRODUCT_PACKAGES += \
+    libprotobuf-cpp-full-vendorcompat \
+    libprotobuf-cpp-lite-vendorcompat
+
 # WiFi
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service \
