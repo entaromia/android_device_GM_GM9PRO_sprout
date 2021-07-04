@@ -75,10 +75,6 @@ vendor/lib64/soundfx/libqcbassboost.so
 vendor/lib64/soundfx/libqcreverb.so
 vendor/lib64/soundfx/libqcvirt.so
 
-# Audio - from GM9PRO_sprout - PKQ1.180904.001
-vendor/lib/libtinycompress_vendor.so|d509e09055593b3542cf1c8b44bdce86f543db63
-vendor/lib64/libtinycompress_vendor.so|3ffc45a8d813d67eadd5923667a239d924814f89
-
 # Audio Firmware - from GM9PRO_sprout - PKQ1.180904.001
 vendor/firmware/VT_D4_ver_392_OKG.bin|d29abc4342106eb13614950794a90d9a2dd58505
 vendor/firmware/tfa98xx.cnt|208af679f2dc151c66c898ecd0bd800ec2648240
@@ -92,10 +88,6 @@ vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb|867aae3632f6caaad149705ac62312ae5228ea
 vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb|7d5516eea2d7db9c9a5a831eb8be60ad9424bb32
 vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb|bb7a013038309803a31f66d212a55c6e13307300
 vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp|621fcdaaf8e55169ba8034485fc428c2abcf8506
-
-# Audio Hardware - from GM9PRO_sprout - PKQ1.180904.001
-vendor/lib/hw/audio.primary.sdm660.so|88de03a297b31273d48ab6a5c554f356c083e953
-vendor/lib64/hw/audio.primary.sdm660.so|155dbc7819dafd8d88c4f19261d6e3d793195509
 
 # Audio Extensions
 vendor/lib64/libbatterylistener.so
