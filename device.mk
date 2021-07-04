@@ -13,9 +13,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 
 # Audio
 PRODUCT_PACKAGES += \
-    android.hardware.audio@2.0-service \
     android.hardware.audio@5.0-impl \
     android.hardware.audio.effect@5.0-impl \
+    android.hardware.audio.service \
     android.hardware.soundtrigger@2.1-impl \
     audio.primary.sdm660 \
     audio.r_submix.default \
