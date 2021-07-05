@@ -1602,14 +1602,12 @@ vendor/bin/ptt_socket_app
 
 # Misc
 vendor/bin/e_loop
-vendor/bin/ipacm-diag
 vendor/bin/iwlist
 vendor/bin/sigma_dut
 vendor/bin/wifilearner
 vendor/bin/xtwifi-client
 vendor/bin/xtwifi-inet-agent
 vendor/etc/gpfspath_oem_config.xml
-vendor/etc/init/ipacm-diag.rc
 vendor/etc/mct_pipeline.xml
 vendor/lib/libdiagjni.so
 vendor/lib/libfastcrc.so
