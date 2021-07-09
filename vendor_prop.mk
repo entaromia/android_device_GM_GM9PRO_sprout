@@ -52,7 +52,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.camera.expose.aux=1 \
     persist.vendor.camera.exif.rotation=off \
     persist.vendor.camera.lib2d.rotation=on \
-    persist.vendor.camera.hvx.rotation=1
+    persist.vendor.camera.hvx.rotation=1 \
+    persist.vendor.camera.dual.isp.sync=0
 
 # Dalvik
 PRODUCT_PROPERTY_OVERRIDES += \

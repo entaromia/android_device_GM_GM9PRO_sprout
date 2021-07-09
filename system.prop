@@ -179,8 +179,7 @@ persist.camera.privapp.list=org.codeaurora.snapcam
 
 #disable UBWC for camera
 persist.vendor.camera.preview.ubwc=0
-persist.vendor.camera.dual.isp.sync=0
-persist.vendor.camera.isp.dualisp=1
+
 #set maximum supported adapter voltage
 persist.chg.max_volt_mv=9000
 
