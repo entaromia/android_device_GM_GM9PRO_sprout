@@ -93,6 +93,10 @@ PRODUCT_PACKAGES += \
     vendor.display.config@1.9 \
     vendor.qti.hardware.display.composer@2.1
 
+# DeviceDoze
+PRODUCT_PACKAGES += \
+    DeviceDoze
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-service \
