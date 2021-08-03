@@ -234,7 +234,7 @@ vendor/lib64/vendor.qti.hardware.cvp@1.0.so
 
 # Camera - from GM9PRO_sprout - PKQ1.180904.001
 vendor/bin/mm-qcamera-app|1b22d768ad6aa4697250053b3800e4059c07c639
-vendor/lib/hw/camera.sdm660.so|a8279dad0080169618e5487d3faa0e2fb01a3d7a
+vendor/lib/hw/camera.sdm660.so|a8279dad0080169618e5487d3faa0e2fb01a3d7a|bb4c9b80bd5888d3e4e413d2486012d6c305ba78
 vendor/lib/libcam.meiyan.so|de5f3eef7a5bf9296df73a7807b21d5b2f6f1145
 vendor/lib/libcam.meiyanHDR.so|469bdc32df2d097a77292c242fede34ebb3f64b3
 vendor/lib/libcam_lowlight.so|4ea3317a1ba39e5a44de106324ecdbebc30ec9c7
