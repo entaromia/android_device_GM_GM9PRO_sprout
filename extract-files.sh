@@ -64,6 +64,9 @@ function blob_fixup() {
         vendor/lib/hw/camera.sdm660.so)
             "${PATCHELF}" --add-needed "libcamera_sdm660_shim.so" "${2}"
             ;;
+        vendor/bin/cnss-daemon)
+            "${PATCHELF}" --add-needed "libqmiservices_shim.so" "${2}"
+            sed -i "s|dms_get_service_object_internal_v01|dms_get_service_object_shimshim_v01|g" "${2}"
     esac
 }
 
