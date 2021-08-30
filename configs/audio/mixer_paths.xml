@@ -2253,14 +2253,14 @@
 
     <path name="voice-speaker">
         <path name="speaker" />
-	<ctl name="left Profile" value="mute_l" />
+	<ctl name="left Profile" value="speech_l" />
 	<ctl name="right Profile" value="speech_r" />
     </path>
 
     <path name="voice-speaker-2">
         <path name="speaker-mono-2" />
-	<ctl name="left Profile" value="music_lm" />
-	<ctl name="right Profile" value="mute_r" />
+	<ctl name="left Profile" value="speech_l" />
+	<ctl name="right Profile" value="speech_r" />
     </path>
 
     <path name="voice-speaker-fluid">
