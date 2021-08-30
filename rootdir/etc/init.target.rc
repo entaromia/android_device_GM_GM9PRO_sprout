@@ -148,6 +148,10 @@ on boot
 #Load WLAN driver
    insmod /vendor/lib/modules/qca_cld3_wlan.ko
 
+#DT2W
+    chown root system /sys/android_touch/wakeup_gesture_enable
+    chmod 666 /sys/android_touch/wakeup_gesture_enable
+
 #USB controller configuration
     setprop vendor.usb.rndis.func.name "rndis_bam"
     setprop vendor.usb.rmnet.func.name "rmnet_bam"
