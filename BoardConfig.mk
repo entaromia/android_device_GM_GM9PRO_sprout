@@ -45,6 +45,9 @@ BOARD_USES_QCOM_HARDWARE := true
 # Display
 TARGET_SCREEN_DENSITY := 402
 
+# DT2W
+TARGET_TAP_TO_WAKE_NODE := "/sys/android_touch/wakeup_gesture_enable"
+
 TARGET_USES_HWC2 := true
 TARGET_USES_GRALLOC1 := true
 TARGET_USES_ION := true
