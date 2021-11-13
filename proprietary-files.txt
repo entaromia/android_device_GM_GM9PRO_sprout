@@ -1561,51 +1561,6 @@ product/lib64/vendor.qti.voiceprint@1.0.so
 vendor/lib/vendor.qti.voiceprint@1.0.so
 vendor/lib64/vendor.qti.voiceprint@1.0.so
 
-# WFD
--framework/WfdCommon.jar
--priv-app/WfdService/WfdService.apk
-etc/init/wfdservice.rc
-etc/wfdconfig.xml
-etc/wfdconfigsink.xml
-lib/com.qualcomm.qti.wifidisplayhal@1.0.so
-lib/libwfdavenhancements.so
-lib/libwfdclient.so
-lib/libwfdcodecv4l2.so
-lib/libwfdcommonutils.so
-lib/libwfdconfigutils.so
-lib/libwfdmminterface.so
-lib/libwfdmmsink.so
-lib/libwfdmmsrc.so
-lib/libwfdnative.so
-lib/libwfdrtsp.so
-lib/libwfdservice.so
-lib/libwfdsm.so
-lib/libwfduibcinterface.so
-lib/libwfduibcsink.so
-lib/libwfduibcsinkinterface.so
-lib/libwfduibcsrc.so
-lib/libwfduibcsrcinterface.so
-lib64/libwfdclient.so
-lib64/libwfdnative.so
-product/lib/vendor.qti.hardware.sigma_miracast@1.0.so
-product/lib64/vendor.qti.hardware.sigma_miracast@1.0.so
-vendor/bin/wifidisplayhalservice
-vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc
-vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so
-vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0.so
-vendor/lib/libhdmipassthru.so
-vendor/lib/libmiracast.so
-vendor/lib/libwfdcommonutils_proprietary.so
-vendor/lib/libwfdhaldsmanager.so
-vendor/lib/libwfdhdcpcp.so
-vendor/lib/libwfdmmservice.so
-vendor/lib/libwfdmodulehdcpsession.so
-vendor/lib/vendor.qti.hardware.sigma_miracast@1.0.so
-vendor/lib64/libhdmipassthru.so
-vendor/lib64/libmiracast.so
-vendor/lib64/libwfdhdcpcp.so
-vendor/lib64/vendor.qti.hardware.sigma_miracast@1.0.so
-
 # WiFi
 vendor/bin/athdiag
 vendor/bin/cnss-daemon
@@ -1622,7 +1577,6 @@ vendor/lib64/vendor.qti.hardware.wigig.netperftuner@1.0.so
 # Misc
 vendor/bin/e_loop
 vendor/bin/iwlist
-vendor/bin/sigma_dut
 vendor/bin/xtwifi-client
 vendor/bin/xtwifi-inet-agent
 vendor/etc/gpfspath_oem_config.xml
