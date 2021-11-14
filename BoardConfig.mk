@@ -100,7 +100,8 @@ ENABLE_VENDOR_RIL_SERVICE := true
 VENDOR_SECURITY_PATCH := 2020-11-01
 
 # Sepolicy
-include device/qcom/sepolicy-legacy-um/SEPolicy.mk
+#include device/qcom/sepolicy-legacy-um/SEPolicy.mk
+BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/minimal
 
 # Treble
 BOARD_VNDK_VERSION := current
