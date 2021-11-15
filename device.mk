@@ -104,6 +104,10 @@ PRODUCT_PACKAGES += \
     vendor.display.config@1.9 \
     vendor.qti.hardware.display.composer@2.1
 
+# Display Device Config
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/display_id_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_0.xml
+
 # DeviceDoze
 PRODUCT_PACKAGES += \
     DeviceDoze
