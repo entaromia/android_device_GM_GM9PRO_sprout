@@ -55,6 +55,7 @@ PRODUCT_COPY_FILES += \
 
 # Bluetooth
 PRODUCT_PACKAGES += \
+    android.hardware.bluetooth@1.0.vendor \
     android.hardware.bluetooth.audio@2.0-impl \
     audio.bluetooth.default \
     vendor.qti.hardware.btconfigstore@1.0.vendor
@@ -88,6 +89,7 @@ PRODUCT_PACKAGES += \
 
 # Display
 PRODUCT_PACKAGES += \
+    android.frameworks.displayservice@1.0.vendor \
     android.hardware.graphics.allocator@2.0-service \
     android.hardware.graphics.allocator@2.0-impl \
     android.hardware.graphics.composer@2.1-service \
@@ -110,13 +112,18 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-service \
     android.hardware.drm@1.0-impl \
-    android.hardware.drm@1.3-service.clearkey
+    android.hardware.drm@1.3-service.clearkey \
+    android.hardware.drm@1.3.vendor
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1
+    android.hardware.biometrics.fingerprint@2.1 \
+    android.hardware.biometrics.fingerprint@2.1.vendor
 
 # GPS
+PRODUCT_PACKAGES += \
+    android.hardware.gnss@2.0.vendor
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/gps/flp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/flp.conf \
     $(LOCAL_PATH)/configs/gps/gps.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gps.conf \
@@ -157,6 +164,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/gpio-keys.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/gpio-keys.kl
 
+# Keystore
+PRODUCT_PACKAGES += \
+    android.hardware.gatekeeper@1.0.vendor \
+    android.hardware.keymaster@3.0.vendor
+
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service \
@@ -169,6 +181,7 @@ PRODUCT_COPY_FILES += \
 
 # Media
 PRODUCT_PACKAGES += \
+    android.hardware.media.c2@1.1.vendor \
     libgui_vendor
 
 PRODUCT_COPY_FILES += \
@@ -185,6 +198,11 @@ PRODUCT_COPY_FILES += \
     frameworks/av/media/libstagefright/data/media_codecs_google_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_audio.xml \
     frameworks/av/media/libstagefright/data/media_codecs_google_telephony.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_telephony.xml \
     frameworks/av/media/libstagefright/data/media_codecs_google_video.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_video.xml
+
+# Network
+PRODUCT_PACKAGES += \
+    android.hardware.neuralnetworks@1.3.vendor \
+    android.system.net.netd@1.1.vendor
 
 # OMX
 PRODUCT_PACKAGES += \
@@ -271,6 +289,11 @@ PRODUCT_PACKAGES += \
 
 # Radio
 PRODUCT_PACKAGES += \
+    android.hardware.radio.config@1.2.vendor \
+    android.hardware.radio@1.5.vendor \
+    android.hardware.radio.deprecated@1.0.vendor \
+    android.hardware.secure_element@1.2 \
+    android.hardware.secure_element@1.2.vendor \
     librmnetctl
 
 # Ramdisk
