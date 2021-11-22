@@ -81,7 +81,6 @@ on early-boot
     write /sys/kernel/boot_slpi/boot 1
     write /sys/devices/virtual/cvp/cvp/boot 1
     setprop ro.alarm_boot false
-    exec u:r:qti_init_shell:s0 -- /vendor/bin/init.qti.can.sh
 
     # for backward compatibility
     chown system system /persist/sensors
@@ -525,11 +524,6 @@ on property:vendor.bluetooth.startbtlogger=false
 on property:vendor.media.target.version=*
     setprop vendor.sys.media.target.version ${vendor.media.target.version}
 
-service qcom-c_core-sh  /vendor/bin/init.qcom.class_core.sh
-    class core
-    user root
-    oneshot
-
 service qcom-c_main-sh /vendor/bin/init.class_main.sh
     class main
     user root
@@ -741,12 +735,6 @@ service wifi-sdio-on /vendor/bin/init.qcom.sdio.sh
     group wifi inet
     disabled
     oneshot
-
-service wifi-crda /vendor/bin/init.crda.sh
-   class late_start
-   user root
-   disabled
-   oneshot
 
 on property:sys.boot_completed=1
     start qcom-post-boot

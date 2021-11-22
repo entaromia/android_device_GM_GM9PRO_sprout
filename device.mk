@@ -304,7 +304,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     init.qcom.rc \
     init.qcom.sh \
-    init.qcom.class_core.sh \
     init.class_main.sh \
     init.qcom.post_boot.sh \
     init.target.rc \
@@ -313,14 +312,10 @@ PRODUCT_PACKAGES += \
     fstab.qcom \
     init.recovery.qcom.rc \
     init.qti.ims.sh \
-    init.qcom.coex.sh \
-    init.crda.sh \
     init.qcom.usb.rc \
     init.msm.usb.configfs.rc \
     init.qcom.usb.sh \
-    init.qcom.efs.sync.sh \
     ueventd.qcom.rc \
-    qca6234-service.sh \
     init.qcom.sensors.sh \
     init.qti.qseecomd.sh \
     init.logger.rc
