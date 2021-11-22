@@ -306,7 +306,6 @@ PRODUCT_PACKAGES += \
     init.qcom.sh \
     init.qcom.class_core.sh \
     init.class_main.sh \
-    init.qcom.early_boot.sh \
     init.qcom.post_boot.sh \
     init.target.rc \
     init.target_dap.rc \
