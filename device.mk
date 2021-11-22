@@ -323,7 +323,6 @@ PRODUCT_PACKAGES += \
     ueventd.qcom.rc \
     qca6234-service.sh \
     init.qcom.sensors.sh \
-    init.qcom.crashdata.sh \
     init.qti.qseecomd.sh \
     init.logger.rc
 
