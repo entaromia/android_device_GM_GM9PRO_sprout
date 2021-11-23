@@ -321,7 +321,6 @@ PRODUCT_PACKAGES += \
     init.msm.usb.configfs.rc \
     init.qcom.usb.sh \
     ueventd.qcom.rc \
-    init.qcom.sensors.sh \
     init.qti.qseecomd.sh \
     init.logger.rc
 
