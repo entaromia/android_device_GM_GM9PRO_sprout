@@ -312,8 +312,6 @@ PRODUCT_PACKAGES += \
     init.class_main.sh \
     init.qcom.post_boot.sh \
     init.target.rc \
-    init.target_dap.rc \
-    init.target_ota.rc \
     fstab.qcom \
     init.recovery.qcom.rc \
     init.qti.ims.sh \
