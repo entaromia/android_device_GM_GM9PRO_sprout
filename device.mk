@@ -84,7 +84,8 @@ PRODUCT_COPY_FILES += \
 
 # Cryptfshw
 PRODUCT_PACKAGES += \
-    vendor.qti.hardware.cryptfshw@1.0.vendor
+    vendor.qti.hardware.cryptfshw@1.0.vendor \
+    vendor.qti.hardware.cryptfshw@1.0-service-qti.qsee
 
 # Display
 PRODUCT_PACKAGES += \
