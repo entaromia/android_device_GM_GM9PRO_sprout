@@ -59,6 +59,9 @@ TARGET_USES_ION := true
 # DT2W
 TARGET_TAP_TO_WAKE_NODE := "/sys/android_touch/wakeup_gesture_enable"
 
+# Encryption
+TARGET_HW_DISK_ENCRYPTION := true
+
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
 
