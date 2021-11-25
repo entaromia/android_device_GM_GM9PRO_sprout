@@ -144,6 +144,10 @@ on boot
     chown system system /sys/class/timed_output/vibrator/wf_s7
     chown system system /sys/class/timed_output/vibrator/wf_update_now
 
+    # DT2W
+    chown root system /sys/android_touch/doubletap2wake
+    chmod 666 /sys/android_touch/doubletap2wake
+
     # runin
     chown system system /sys/class/power_supply/battery/charging_enabled
     mkdir /mnt/vendor/persist/audio 0770 audio audio
@@ -153,10 +157,6 @@ on boot
 
 #Load WLAN driver
    insmod /vendor/lib/modules/qca_cld3_wlan.ko
-
-#DT2W
-    chown root system /sys/android_touch/wakeup_gesture_enable
-    chmod 666 /sys/android_touch/wakeup_gesture_enable
 
 #USB controller configuration
     setprop vendor.usb.rndis.func.name "rndis_bam"

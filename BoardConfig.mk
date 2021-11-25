@@ -57,7 +57,7 @@ TARGET_USES_GRALLOC1 := true
 TARGET_USES_ION := true
 
 # DT2W
-TARGET_TAP_TO_WAKE_NODE := "/sys/android_touch/wakeup_gesture_enable"
+TARGET_TAP_TO_WAKE_NODE := "/sys/android_touch/doubletap2wake"
 
 # Encryption
 TARGET_HW_DISK_ENCRYPTION := true
