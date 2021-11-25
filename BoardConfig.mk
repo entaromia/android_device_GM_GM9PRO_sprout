@@ -8,6 +8,7 @@ DEVICE_PATH := device/GM/GM9PRO_sprout
 
 BUILD_BROKEN_DUP_RULES := true
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
+BUILD_BROKEN_ENFORCE_SYSPROP_OWNER := true
 
 # A/B
 AB_OTA_UPDATER := true
@@ -110,8 +111,6 @@ VENDOR_SECURITY_PATCH := 2020-11-01
 # Sepolicy
 #include device/qcom/sepolicy-legacy-um/SEPolicy.mk
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/minimal
-
-SELINUX_IGNORE_NEVERALLOWS := true
 
 # Treble
 BOARD_VNDK_VERSION := current
