@@ -64,4 +64,10 @@
     <!-- Raise to Wake Gesture -->
     <string name="raise_to_wake_gesture_title">Raise To Wake</string>
     <string name="raise_to_wake_gesture_summary">Tilt Sensor events to raise your device.</string>
+    
+    <!-- Ambient settings -->
+    <string name="ambient_enable">Use ambient display</string>
+
+    <string name="doze_brightness_title">Always on brightness</string>
+    <string name="doze_brightness_summary">%s mode is enabled</string>
 </resources>
