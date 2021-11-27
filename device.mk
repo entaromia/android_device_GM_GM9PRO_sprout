@@ -351,7 +351,10 @@ PRODUCT_PACKAGES += \
     libcamera_sdm660_shim
 
 # Soong
-PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
+PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH) \
+    hardware/google/interfaces \
+    hardware/google/pixel
 
 # Telephony
 PRODUCT_PACKAGES += \
