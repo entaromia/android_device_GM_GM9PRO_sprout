@@ -177,7 +177,7 @@
      <bool name="config_suspendWhenScreenOffDueToProximity">false</bool>
 
     <!-- True if the device supports Sustained Performance Mode-->
-     <bool name="config_sustainedPerformanceModeSupported">false</bool>
+     <bool name="config_sustainedPerformanceModeSupported">true</bool>
 
     <!-- Config determines whether to update phone object when voice registration
          state changes. Voice radio tech change will always trigger an update of
