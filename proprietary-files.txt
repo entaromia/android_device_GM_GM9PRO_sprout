@@ -930,7 +930,6 @@ lib/libqti_performance.so
 lib64/libqti-perfd-client_system.so
 lib64/libqti-util_system.so
 lib64/libqti_performance.so
-vendor/bin/energy-awareness
 vendor/bin/hw/vendor.qti.hardware.perf@2.0-service
 vendor/bin/msm_irqbalance
 vendor/etc/init/vendor.qti.hardware.perf@2.0-service.rc
