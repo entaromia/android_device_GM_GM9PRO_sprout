@@ -402,6 +402,7 @@ PRODUCT_PACKAGES += \
     hostapd \
     libqmiservices_shim \
     libwifi-hal-qcom \
+    libwpa_client \
     vendor.qti.hardware.fstman@1.0.vendor \
     vendor.qti.hardware.wifi.hostapd@1.1.vendor \
     vendor.qti.hardware.wifi.supplicant@2.1.vendor \
