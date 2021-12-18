@@ -142,20 +142,14 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.carrier=unknown \
     persist.radio.multisim.config=ssss \
-    persist.vendor.qcomsysd.enabled=1 \
+    persist.vendor.data.iwlan.enable=true \
     persist.vendor.radio.apm_sim_not_pwdn=1 \
     persist.vendor.radio.sib16_support=1 \
     persist.vendor.radio.custom_ecc=1 \
+    persist.vendor.radio.data_con_rprt=1 \
     persist.vendor.radio.mt_sms_ack=30 \
     persist.vendor.radio.rat_on=combine \
-    persist.vendor.radio.procedure_bytes=SKIP \
-    persist.radio.vrte_logic=1 \
-    persist.radio.jbims=1 \
-    persist.radio.domain.ps=false \
-    persist.radio.VT_HYBRID_ENABLE=1 \
-    persist.radio.videopause.mode=1 \
-    persist.radio.ROTATION_ENABLE=1 \
-    persist.radio.RATE_ADAPT_ENABLE=1
+    persist.vendor.radio.procedure_bytes=SKIP
 
 # Sensors
 PRODUCT_PROPERTY_OVERRIDES += \
