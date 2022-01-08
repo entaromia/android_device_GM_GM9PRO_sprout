@@ -966,8 +966,6 @@ vendor/lib/libqmi_encdec.so|42f1d3da38170a5a69edaeb459db8425f455c625
 vendor/lib64/libdiag.so|e310c29ca02dbfe6d07fce8f9fefc01eafd23594
 vendor/lib64/libdsutils.so|4815422d4f67a2bfc86c5ca28c7fafb37e02a379
 vendor/lib64/libidl.so|485534cc8019d0a07b89b997fbf2eb88db29190f
-vendor/lib64/libminkdescriptor.so|18a2a0f99b29e57b3e3256b818b7ba3d73902637
-vendor/lib64/libminksocket.so|fa81f5c47ee5a1f05fee71c464095bb1e89c26fd
 vendor/lib64/libqcci_legacy.so|b24c65dd780018687d7bbce5a7707141b259f0e5
 vendor/lib64/libqdi.so|63a161fb72483bb817fe6c76ad5f9c168ed2e9d2
 vendor/lib64/libqdp.so|6160579f22bb2f812768397370e564d2f6789fbc
@@ -1313,11 +1311,8 @@ vendor/lib/vendor.qti.voiceprint@1.0.so
 vendor/lib64/vendor.qti.voiceprint@1.0.so
 
 # WiFi
-vendor/bin/athdiag
 vendor/bin/cnss-daemon
 vendor/bin/fstman
-vendor/bin/iwpriv
-vendor/bin/ptt_socket_app
 vendor/bin/wifilearner
 vendor/etc/init/vendor.qti.hardware.fstman@1.0-service.rc
 vendor/etc/init/vendor.qti.hardware.wifi.wifilearner@1.0-service.rc
@@ -1326,22 +1321,10 @@ vendor/lib64/vendor.qti.hardware.wifi.wifilearner@1.0.so
 vendor/lib64/vendor.qti.hardware.wigig.netperftuner@1.0.so
 
 # Misc
-vendor/bin/e_loop
-vendor/bin/iwlist
 vendor/bin/xtwifi-client
 vendor/bin/xtwifi-inet-agent
 vendor/etc/gpfspath_oem_config.xml
-vendor/etc/mct_pipeline.xml
-vendor/lib/libdiagjni.so
 vendor/lib/libfastcrc.so
-vendor/lib/libjnihelper.so
-vendor/lib/libqcbor.so
-vendor/lib/libskewknob.so
 vendor/lib/libsynergy_loc_api.so
-vendor/lib64/libdiagjni.so
 vendor/lib64/libfastcrc.so
-vendor/lib64/libjnihelper.so
-vendor/lib64/libqcbor.so
-vendor/lib64/libreffeature.so
-vendor/lib64/libskewknob.so
 vendor/lib64/libsynergy_loc_api.so
