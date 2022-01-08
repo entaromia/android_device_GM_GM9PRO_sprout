@@ -44,13 +44,7 @@ vendor/lib/libacdbrtac.so
 vendor/lib/libadiertac.so
 vendor/lib/libadm.so
 vendor/lib/libaudcal.so
-vendor/lib/libaudioalsa.so
-vendor/lib/libaudioconfigstore.so
-vendor/lib/libaudioparsers.so
-vendor/lib/libaudio_log_utils.so
-vendor/lib/libdrc.so
 vendor/lib/libqtigef.so
-vendor/lib/libsurround_3mic_proc.so
 vendor/lib/soundfx/libasphere.so
 vendor/lib/soundfx/libqcbassboost.so
 vendor/lib/soundfx/libqcreverb.so
@@ -60,10 +54,6 @@ vendor/lib64/libacdbloader.so
 vendor/lib64/libacdbrtac.so
 vendor/lib64/libadiertac.so
 vendor/lib64/libaudcal.so
-vendor/lib64/libaudioalsa.so
-vendor/lib64/libaudioconfigstore.so
-vendor/lib64/libaudioparsers.so
-vendor/lib64/libaudio_log_utils.so
 vendor/lib64/libqtigef.so
 vendor/lib64/soundfx/libasphere.so
 vendor/lib64/soundfx/libqcbassboost.so
