@@ -38,7 +38,6 @@ vendor/lib64/com.qualcomm.qti.ant@1.0.so
 vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so
 
 # Audio
-vendor/bin/audioflacapp
 vendor/lib/libacdb-fts.so
 vendor/lib/libacdbloader.so
 vendor/lib/libacdbrtac.so
@@ -868,7 +867,6 @@ product/lib64/vendor.qti.hardware.vpp@1.2.so
 vendor/lib/libAlacSwDec.so
 vendor/lib/libApeSwDec.so
 vendor/lib/libdsd2pcm.so
-vendor/lib/libFlacSwDec.so
 vendor/lib/libgpustats.so
 vendor/lib/libmmosal_proprietary.so
 vendor/lib/libmmsw_detail_enhancement.so
@@ -890,7 +888,6 @@ vendor/lib/libOmxQcelp13Dec.so
 vendor/lib/libOmxVideoDSMode.so
 vendor/lib/libOmxVpp.so
 vendor/lib/libOmxWmaDec.so
-vendor/lib/libstagefright_soft_qtiflacdec.so
 vendor/lib/libvpphvx.so
 vendor/lib/libvpplibrary.so
 vendor/lib/libvqzip.so
@@ -898,7 +895,6 @@ vendor/lib/vendor.qti.hardware.vpp@1.1.so
 vendor/lib/vendor.qti.hardware.vpp@1.2.so
 vendor/lib64/libAlacSwDec.so
 vendor/lib64/libApeSwDec.so
-vendor/lib64/libFlacSwDec.so
 vendor/lib64/libgpustats.so
 vendor/lib64/libmmosal_proprietary.so
 vendor/lib64/libmmsw_detail_enhancement.so
@@ -918,7 +914,6 @@ vendor/lib64/libOmxG711Dec.so
 vendor/lib64/libOmxQcelp13Dec.so
 vendor/lib64/libOmxVpp.so
 vendor/lib64/libOmxWmaDec.so
-vendor/lib64/libstagefright_soft_qtiflacdec.so
 vendor/lib64/libvpphvx.so
 vendor/lib64/libvpplibrary.so
 vendor/lib64/vendor.qti.hardware.vpp@1.1.so
