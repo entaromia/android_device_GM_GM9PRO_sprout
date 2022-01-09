@@ -1310,8 +1310,10 @@ product/lib64/vendor.qti.voiceprint@1.0.so
 vendor/lib/vendor.qti.voiceprint@1.0.so
 vendor/lib64/vendor.qti.voiceprint@1.0.so
 
+# WiFi - from DDV_sprout - RKQ1.210607.001 - 00WW_3_440
+vendor/bin/cnss-daemon|1c63b8f94ba601b76edb0ee2fa1d1880de8d0ea3
+
 # WiFi
-vendor/bin/cnss-daemon
 vendor/bin/fstman
 vendor/bin/wifilearner
 vendor/etc/init/vendor.qti.hardware.fstman@1.0-service.rc
