@@ -399,9 +399,6 @@ PRODUCT_PACKAGES += \
     hostapd \
     libwifi-hal-qcom \
     libwpa_client \
-    vendor.qti.hardware.fstman@1.0.vendor \
-    vendor.qti.hardware.wifi.hostapd@1.1.vendor \
-    vendor.qti.hardware.wifi.supplicant@2.1.vendor \
     WifiOverlay \
     wpa_supplicant \
     wpa_supplicant.conf
