@@ -397,7 +397,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service \
     hostapd \
-    libqmiservices_shim \
     libwifi-hal-qcom \
     libwpa_client \
     vendor.qti.hardware.fstman@1.0.vendor \

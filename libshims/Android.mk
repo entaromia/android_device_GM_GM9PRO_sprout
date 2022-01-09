@@ -9,16 +9,6 @@ LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_SHARED_LIBRARY)
 
 include $(CLEAR_VARS)
-LOCAL_SRC_FILES := libqmiservices_shim.cpp
-LOCAL_SHARED_LIBRARIES := libqmiservices libbase
-LOCAL_MODULE := libqmiservices_shim
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_TARGET_ARCH := arm64
-LOCAL_VENDOR_MODULE := true
-include $(BUILD_SHARED_LIBRARY)
-
-include $(CLEAR_VARS)
 LOCAL_SRC_FILES := lib-imsvtshim.cpp
 LOCAL_MODULE := lib-imsvtshim
 LOCAL_MODULE_TAGS := optional
