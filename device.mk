@@ -20,9 +20,6 @@ PRODUCT_PACKAGES += \
     audio.primary.sdm660 \
     audio.r_submix.default \
     audio.usb.default \
-    libbatterylistener \
-    libcirrusspkrprot \
-    libcomprcapture \
     libexthwplugin \
     libhdmiedid \
     libhfp \
@@ -30,7 +27,6 @@ PRODUCT_PACKAGES += \
     libqcomvisualizer \
     libqcomvoiceprocessing \
     libsndmonitor \
-    libspkrprot \
     libvolumelistener
 
 PRODUCT_COPY_FILES += \
