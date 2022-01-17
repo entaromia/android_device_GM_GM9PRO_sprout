@@ -8,7 +8,6 @@
 $(call inherit-product, vendor/GM/GM9PRO_sprout/GM9PRO_sprout-vendor.mk)
 
 # Properties
-include $(LOCAL_PATH)/vendor_prop.mk
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
 # Audio
