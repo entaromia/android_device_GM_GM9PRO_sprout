@@ -985,7 +985,6 @@ vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so
 
 # Radio - from PNX_sprout - RKQ1.200906.002 - 00WW_6_210
 -system_ext/app/atfwd/atfwd.apk|36d64e33cd9eb24bd18ecc2f8e824ab09cc0c3fa
--system_ext/app/datastatusnotification/datastatusnotification.apk|081a9d79e9c16ac69d74b5e32b374b9b531c5526
 -system_ext/app/QtiTelephonyService/QtiTelephonyService.apk|5d0fe3593ef98ebd307d50e0c1a3b4857b607935
 system_ext/etc/permissions/embms.xml|22e7474091f9f71f02dd0cfc76cfa8848a46f079
 system_ext/etc/permissions/qcrilhook.xml|30397e293b2c40e6b7a1d11c2a615cdd05de625a
