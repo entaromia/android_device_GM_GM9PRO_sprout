@@ -17,4 +17,5 @@ cc_library_shared {
 cc_library_shared {
     name: "lib-imsvtshim",
     srcs: ["lib-imsvtshim.cpp"],
+    system_ext_specific: true,
 }
