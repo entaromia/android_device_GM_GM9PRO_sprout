@@ -313,7 +313,6 @@ PRODUCT_PACKAGES += \
     init.msm.usb.configfs.rc \
     init.qcom.usb.sh \
     ueventd.qcom.rc \
-    init.qti.qseecomd.sh \
     init.logger.rc
 
 # Seccomp
