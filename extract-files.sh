@@ -58,9 +58,6 @@ function blob_fixup() {
         system_ext/lib64/lib-imsvideocodec.so)
             "${PATCHELF}" --add-needed "lib-imsvtshim.so" "${2}"
             ;;
-        product/etc/permissions/vendor.qti.hardware.data.connection-V1.*-java.xml)
-            sed -i 's/2.0/1.0/' "${2}"
-            ;;
         vendor/lib/hw/camera.sdm660.so)
             "${PATCHELF}" --add-needed "libcamera_sdm660_shim.so" "${2}"
             ;;
