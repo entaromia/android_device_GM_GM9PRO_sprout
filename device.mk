@@ -228,7 +228,7 @@ PRODUCT_PACKAGES += \
    FrameworksResOverlayGM \
    SettingsProviderOverlayGM \
    TelephonyOverlayGM \
-   WifiOverlay
+   WifiOverlayGM
 
 # Permissions
 PRODUCT_COPY_FILES += \
