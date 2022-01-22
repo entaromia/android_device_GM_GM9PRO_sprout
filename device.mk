@@ -308,7 +308,6 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     fstab.qcom \
     init.recovery.qcom.rc \
-    init.qti.ims.sh \
     init.qcom.usb.rc \
     init.msm.usb.configfs.rc \
     init.qcom.usb.sh \
