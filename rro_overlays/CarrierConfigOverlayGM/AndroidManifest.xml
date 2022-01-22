@@ -11,7 +11,7 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.arrow.carrierconfig.overlay.gm9pro">
+    package="com.android.carrierconfig.overlay.gm9pro">
 
     <application android:hasCode="false" />
     <overlay
