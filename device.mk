@@ -223,11 +223,12 @@ PRODUCT_PACKAGES += \
     libstagefrighthw
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay
-
-PRODUCT_ENFORCE_RRO_TARGETS := \
-    framework-res
+PRODUCT_PACKAGES += \
+   CarrierConfigOverlayGM \
+   FrameworksResOverlayGM \
+   SettingsProviderOverlayGM \
+   TelephonyOverlayGM \
+   WifiOverlay
 
 # Permissions
 PRODUCT_COPY_FILES += \
@@ -383,7 +384,6 @@ PRODUCT_PACKAGES += \
     hostapd \
     libwifi-hal-qcom \
     libwpa_client \
-    WifiOverlay \
     wpa_supplicant \
     wpa_supplicant.conf
 
