@@ -219,12 +219,6 @@
       "Value": "2929"
     },
     {
-      "PowerHint": "INTERACTION",
-      "Node": "GPUMinFreq",
-      "Duration": 0,
-      "Value": "266000000"
-    },
-    {
       "PowerHint": "LAUNCH",
       "Node": "EnergyAware",
       "Duration": 2500,
