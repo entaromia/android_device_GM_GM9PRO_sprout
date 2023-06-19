@@ -97,7 +97,7 @@ PRODUCT_PACKAGES += \
     android.hardware.memtrack@1.0-impl \
     gralloc.sdm660 \
     hwcomposer.sdm660 \
-    libqdMetaData.vendor \
+    libqdMetaData \
     memtrack.sdm660 \
     vendor.display.config@1.9 \
     vendor.qti.hardware.display.composer@2.1
