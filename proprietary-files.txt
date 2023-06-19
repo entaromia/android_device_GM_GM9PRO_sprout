@@ -167,14 +167,6 @@ vendor/lib64/vendor.qti.hardware.mwqemadapter@1.0.so|c041dbfc99643e791e52c4e7f3a
 vendor/lib64/vendor.qti.latency@2.0.so|60ab3143325e855f8c72e3f603c28efe2e7227b9
 vendor/lib64/vendor.qti.latency@2.1.so|47f0d25338274af94764be9d39eabef8cf5ca790
 
-# Cryptfs
-vendor/bin/hw/vendor.qti.hardware.cryptfshw@1.0-service-qti
-vendor/etc/init/vendor.qti.hardware.cryptfshw@1.0-service-qti.rc
-vendor/lib/libcryptfshwcommon.so
-vendor/lib/libcryptfshwhidl.so
-vendor/lib64/libcryptfshwcommon.so
-vendor/lib64/libcryptfshwhidl.so
-
 # CVP
 product/lib/vendor.qti.hardware.cvp@1.0-adapter-helper.so
 product/lib/vendor.qti.hardware.cvp@1.0.so
