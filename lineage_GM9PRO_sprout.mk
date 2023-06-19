@@ -8,8 +8,8 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Arrow stuff
-$(call inherit-product, vendor/arrow/config/common.mk)
+# Inherit some common Lineage stuff
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit from device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -17,7 +17,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 PRODUCT_BRAND := GM
 PRODUCT_DEVICE := GM9PRO_sprout
 PRODUCT_MANUFACTURER := General Mobile
-PRODUCT_NAME := arrow_GM9PRO_sprout
+PRODUCT_NAME := lineage_GM9PRO_sprout
 PRODUCT_MODEL := GM 9 Pro
 
 PRODUCT_GMS_CLIENTID_BASE := android-gm

@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_GM9PRO_sprout.mk
+    $(LOCAL_DIR)/lineage_GM9PRO_sprout.mk
