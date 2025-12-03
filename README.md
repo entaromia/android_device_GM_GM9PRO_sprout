@@ -1,5 +1,6 @@
-### Device Tree for General Mobile GM 9 Pro (GM9PRO_sprout)
+## Device Tree for General Mobile GM 9 Pro (`GM9PRO_sprout`)
 
+#### Specs
 Basic   | Spec Sheet
 -------:|:----------
 CPU     | 4x 1.84 GHz Kryo 260 LP, 4x 2.20 GHz Kryo 260 HP
